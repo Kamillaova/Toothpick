@@ -2,8 +2,8 @@ plugins {
   `kotlin-dsl`
 }
 
-group = "xyz.jpenilla"
-version = "1.1.0-SNAPSHOT"
+group = "dev.kamillaova"
+version = "FUCKING"
 description = "Gradle plugin to assist in forking Paper"
 
 repositories {
