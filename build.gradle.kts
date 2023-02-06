@@ -21,6 +21,15 @@ kotlin {
   explicitApi()
 }
 
+gradlePlugin {
+  plugins {
+    create("Toothpick") {
+      id = "dev.kamillaova.toothpick"
+      implementationClass = "xyz.jpenilla.toothpick.Toothpick"
+    }
+  }
+}
+
 tasks {
   jar {
     manifest {
